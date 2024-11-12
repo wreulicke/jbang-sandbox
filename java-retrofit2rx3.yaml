@@ -1,0 +1,8 @@
+generatorName: java
+outputDir: output
+library: retrofit2
+inputSpec: https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/petstore.yaml
+additionalProperties:
+  useRxJava3: "true"
+  artifactId: petstore-retrofit2-rx3
+  hideGenerationTimestamp: "true"
